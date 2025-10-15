@@ -34,7 +34,7 @@ try:
     logger.info("Starting model evaluation...")
 
     # Load test data
-    test_data_path = 'data/processed/test_tfidf.csv'
+    test_data_path = 'data/processed/test_bow.csv'
     if not os.path.exists(test_data_path):
         raise FileNotFoundError(f"Test data not found at {test_data_path}")
 
